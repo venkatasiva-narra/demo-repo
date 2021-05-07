@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'venkat-webapp'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_0866abbef2a94deab07c3bf961fdee7a }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_af4d23396592485587a4273c3caf6860 }}
