@@ -6,10 +6,10 @@ from datetime import datetime
 from flask import render_template, flash, redirect, request, session, url_for
 from werkzeug.urls import url_parse
 from config import Config
-from FlaskWebProject import app, db
-from FlaskWebProject.forms import LoginForm, PostForm
+from AzureCMSApp import app, db
+from AzureCMSApp.forms import LoginForm, PostForm
 from flask_login import current_user, login_user, logout_user, login_required
-from FlaskWebProject.models import User, Post
+from AzureCMSApp.models import User, Post
 import msal
 import uuid
 
